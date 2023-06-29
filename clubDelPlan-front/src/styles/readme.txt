@@ -1,0 +1,1 @@
+ Esta carpeta puede contener los archivos de estilos globales de tu aplicación, como hojas de estilos CSS o temas.

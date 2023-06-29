@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "ceiboFront",
+    "slug": "ceiboFront",
+    "scheme": "clubdelplan",
+    "android": {
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "clubdelplan",
+              "host": "*",
+              "pathPrefix": "/"
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ],
+      "package": "com.auth.ceiboFront"
+    },
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "package": "com.auth.ceiboFront"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "92aab027-2598-49ec-83aa-71529daad89b"
+      }
+    }
+  },
+  "name": "ceiboFront"
+}

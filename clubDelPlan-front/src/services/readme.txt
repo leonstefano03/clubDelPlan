@@ -1,0 +1,1 @@
+Aquí se pueden almacenar los archivos estáticos como imágenes, fuentes u otros recursos.
